@@ -1,0 +1,130 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    color: maroon;
+}
+/*
+#dtparent{
+    display: flex;
+    margin: 5px;
+    border;
+}
+#topnav1 ul,ul{
+    display: flex;
+    list-style: none;
+    background-color: chartreuse;
+}
+#topnav1 ul li a{
+    display: block;
+    padding: 1px;
+}
+#topnav1 ul li :hover{
+    background-color: brown;
+    transform:scale(2);
+    cursor:pointer;
+    
+} */
+.page{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.page div:nth-child(1)
+{
+    background-color:aqua
+}
+.page div:nth-child(2)
+{
+    background-color: red;
+}
+.page div:nth-child(3)
+{
+    background-color: red;
+}
+.page div:nth-child(4)
+{
+    background-color: red;
+}
+.page div:nth-child(5)
+{
+    background-color: red;
+}
+.page div:nth-child(6)
+{
+    background-color: red;
+}
+.page div:nth-child(7)
+{
+    background-color: red;
+}
+.page div:nth-child(8)
+{
+    background-color: red;
+}
+.page div:nth-child(9)
+{
+    background-color: red;
+}
+.page div:nth-child(10)
+{
+    background-color: red;
+}
+.page div:nth-child(11)
+{
+    background-color: red;
+}
+.page div:nth-child(12)
+{
+    background-color: red;
+}
+.page div:nth-child(13)
+{
+    background-color: red;
+}
+
+#topnav1 ul,ul{
+    display: flex;
+    list-style: none;
+} 
+#topnav1 ul,ul a{
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: small;
+}
+
+#topnav1 ul li:nth-child(6)
+{
+    flex-grow: 1;
+}
+
+element.style {
+}
+.cart_image {
+    width: 20px;
+    height: 20px;
+    background: url(https://www.mirraw.com/assets/cart_red-8b5f3ea46b501a3bf2ab03e717f5c58339838a60d3807991976fc3f8c42c8052.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.cart-text {
+    font-size: 15px;
+    color: #670b19;
+    vertical-align: super;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#image-account {
+    display: inline-block;
+    background: url(https://www.mirraw.com/assets/user_red-c0b3bed28df2f035e2a6eae92ddd808d1b040a7afa267db2909d3c34851be21c.png);
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 20px;
+}
+.account-text {
+    font-size: 12px;
+    color: #670b19;
+    vertical-align: super;
+    font-weight: bold;
+    text-transform: uppercase;
+}
